@@ -16,7 +16,11 @@ public class PhanMemQLQuanCafe {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Xin chao ae!");
+
+        System.out.println("al1");
+        System.out.println("Toi la Anh Duc");
         System.out.println("Toi la Tuan Minh");
+
     }
     
 }
