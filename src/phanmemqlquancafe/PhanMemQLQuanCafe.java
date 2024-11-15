@@ -3,6 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package phanmemqlquancafe;
+import java.time.Year;
+import java.util.Scanner;
 
 /**
  *
@@ -17,6 +19,17 @@ public class PhanMemQLQuanCafe {
         // TODO code application logic here
         System.out.println("Xin chao ae!");
         System.out.println("Toi la Trong Kien");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Nhập năm sinh của bạn: ");
+        int birthYear = sc.nextInt();
+
+        int currentYear = Year.now().getValue();
+
+        int age = currentYear - birthYear;
+
+        System.out.println("Tuổi của bạn là: " + age);
+
+        sc.close();
     }
     
 }
