@@ -18,18 +18,6 @@ public class PhanMemQLQuanCafe {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Xin chao ae!");
-        System.out.println("Toi la Trong Kien");
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Nhập năm sinh của bạn: ");
-        int birthYear = sc.nextInt();
-
-        int currentYear = Year.now().getValue();
-
-        int age = currentYear - birthYear;
-
-        System.out.println("Tuổi của bạn là: " + age);
-
-        sc.close();
     }
     
 }
