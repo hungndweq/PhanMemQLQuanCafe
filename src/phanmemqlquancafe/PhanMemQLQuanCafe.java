@@ -21,6 +21,7 @@ public class PhanMemQLQuanCafe {
         System.out.println("Toi la Anh Duc");
         System.out.println("Toi la Tuan Minh");
         System.out.println("Huong dan moi nguoi/video");
+        System.out.println("Kang Da Gyeom la Duy Hung nhe moi nguoi");
     }
     
 }
