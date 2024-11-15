@@ -17,6 +17,7 @@ public class PhanMemQLQuanCafe {
         // TODO code application logic here
         System.out.println("Xin chao ae!");
         System.out.println("al1");
+        System.out.println("Toi la Anh Duc");
     }
     
 }
