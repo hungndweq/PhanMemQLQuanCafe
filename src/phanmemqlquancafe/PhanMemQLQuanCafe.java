@@ -20,7 +20,7 @@ public class PhanMemQLQuanCafe {
         System.out.println("al1");
         System.out.println("Toi la Anh Duc");
         System.out.println("Toi la Tuan Minh");
-
+        System.out.println("Moi ngay 1 commit");
     }
     
 }
