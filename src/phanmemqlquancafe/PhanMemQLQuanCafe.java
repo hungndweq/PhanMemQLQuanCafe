@@ -15,6 +15,11 @@ public class PhanMemQLQuanCafe {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("************************************");
+        System.out.println("*          Welcome to Java         *");
+        System.out.println("*        Code with Creativity       *");
+        System.out.println("************************************");
+
         System.out.println("Xin chao ae!");
 
         System.out.println("al1");
@@ -25,6 +30,7 @@ public class PhanMemQLQuanCafe {
         System.out.println("Nho commit nhe moi nguoi");
         System.out.println("Huong dan moi nguoi/video");
         System.out.println("Kang Da Gyeom la Duy hung nhe moi nguoi");
+
     }
     
 }
