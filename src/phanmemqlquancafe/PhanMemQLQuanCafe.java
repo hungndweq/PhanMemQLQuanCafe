@@ -18,7 +18,7 @@ public class PhanMemQLQuanCafe {
         System.out.println("Xin chao ae!");
 
         System.out.println("al1");
-        System.out.println("Toi la Anh Duc");
+        System.out.println("Toi la Anh Duc1");
         System.out.println("Toi la Tuan Minh");
         System.out.println("Moi ngay 1 commit");
         System.out.println("Nho commit nhe moi nguoi");
