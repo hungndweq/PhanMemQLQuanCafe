@@ -17,8 +17,18 @@ public class PhanMemQLQuanCafe {
         // TODO code application logic here
         System.out.println("************************************");
         System.out.println("*          Welcome to Java         *");
-        System.out.println("*        Code with Creativity       *");
+        System.out.println("*        Code with Nhom 4          *");
         System.out.println("************************************");
+        System.out.println("    *    ");
+        System.out.println("   ***   ");
+        System.out.println("  *****  ");
+        System.out.println(" ******* ");
+        System.out.println("    |    ");
+        System.out.println(" Merry Christmas!");
+        System.out.println("=====================================");
+        System.out.println("|           JAVA PROGRAM            |");
+        System.out.println("=====================================");
+        System.out.println("           Let's get started!        ");
 
         System.out.println("Xin chao ae!");
 
