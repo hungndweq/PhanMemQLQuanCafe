@@ -33,7 +33,7 @@ public class PhanMemQLQuanCafe {
         System.out.println("Xin chao ae!");
 
         System.out.println("Toi la Trung Kien");
-        System.out.println("Toi la Trung Kien");
+      
 
         System.out.println("al1");
         System.out.println("Toi la Anh Duc1");
