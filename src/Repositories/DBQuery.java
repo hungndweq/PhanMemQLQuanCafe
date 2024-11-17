@@ -4,10 +4,24 @@
  */
 package Repositories;
 
+import Model.HoaDon;
+import Model.KhachHang;
+import Model.NhanVien;
+import Model.SanPham;
+import java.util.ArrayList;
+
 /**
  *
  * @author Hyun
  */
 public class DBQuery {
-    
+    DBConnection bConnection;
+    ArrayList<SanPham> al = new ArrayList<>();
+    ArrayList<KhachHang> al1 = new ArrayList<>();
+    ArrayList<NhanVien> al2 = new ArrayList<>();
+    ArrayList<HoaDon> al3 = new ArrayList<>();
+    public ArrayList<SanPham> getSP(){
+        
+        return al;
+    }
 }

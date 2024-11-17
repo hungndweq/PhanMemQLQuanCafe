@@ -11,6 +11,7 @@ package Model;
 import java.time.LocalDateTime;
 
 public class HoaDon {
+
     private String idHoaDon;
     private String idNhanVien;
     private String idSanPham;
@@ -20,10 +21,11 @@ public class HoaDon {
     private LocalDateTime thoiGianXuatHoaDon;
 
     // Constructors
-    public HoaDon() {}
+    public HoaDon() {
+    }
 
     public HoaDon(String idHoaDon, String idNhanVien, String idSanPham, String idKhachHang,
-                  int soLuongSanPhamMua, double tongTien, LocalDateTime thoiGianXuatHoaDon) {
+            int soLuongSanPhamMua, double tongTien, LocalDateTime thoiGianXuatHoaDon) {
         this.idHoaDon = idHoaDon;
         this.idNhanVien = idNhanVien;
         this.idSanPham = idSanPham;
@@ -90,4 +92,3 @@ public class HoaDon {
         this.thoiGianXuatHoaDon = thoiGianXuatHoaDon;
     }
 }
-
