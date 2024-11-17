@@ -9,7 +9,7 @@ import Model.KhachHang;
 import Model.NhanVien;
 import Model.SanPham;
 import java.util.ArrayList;
-
+import java.sql.*;
 /**
  *
  * @author Hyun
@@ -21,7 +21,12 @@ public class DBQuery {
     ArrayList<NhanVien> al2 = new ArrayList<>();
     ArrayList<HoaDon> al3 = new ArrayList<>();
     public ArrayList<SanPham> getSP(){
-        
+        String query = "SELECT * FROM san_pham";
+        try(Connection conn = bConnection.getconnect) {
+
+        } catch (java.lang.Exception e) {
+            throw new RuntimeException(e);
+        }
         return al;
     }
 }
