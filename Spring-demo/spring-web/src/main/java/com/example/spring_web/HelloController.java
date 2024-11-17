@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "hello.html";  // Trả về tên của template hello.html trong thư mục templates
+        return "hello";  // Trả về tên của template hello.html trong thư mục templates
     }
 }
