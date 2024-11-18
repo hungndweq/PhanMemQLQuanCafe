@@ -48,7 +48,7 @@ public class PhanMemQLQuanCafe {
         System.out.println("Huong dan moi nguoi/video");
         System.out.println("Kang Da Gyeom la Duy hung nhe moi nguoi");
         System.out.println("Toi la Tuan Minh commit ngay 2");
-        
+        System.out.println("Toi la Duc commit ngay 2");
 
 
     }
