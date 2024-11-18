@@ -120,6 +120,7 @@ public class PhanMemQLQuanCafe {
         System.out.println("Merge pull theo yeu cau");
          System.out.println("Toi la Tuan Minh commit ngay 2 lan 3");
            System.out.println("Toi la Tuan Minh commit ngay 2 lan 3");
+           System.out.println("bkuqwhfeuwf");
     }
 
 }
