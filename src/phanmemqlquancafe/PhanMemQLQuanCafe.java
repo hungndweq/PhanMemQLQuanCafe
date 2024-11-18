@@ -48,6 +48,9 @@ public class PhanMemQLQuanCafe {
         System.out.println("Nho commit nhe moi nguoi");
         System.out.println("Huong dan moi nguoi/video");
         System.out.println("Kang Da Gyeom la Duy hung nhe moi nguoi");
+
+        whfphjewpigjpwigjpi
+
         int rows = 10; // Số dòng tam giác Pascal
 
         for (int i = 0; i < rows; i++) {
