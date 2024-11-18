@@ -19,31 +19,6 @@ public class PhanMemQLQuanCafe {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        // Reset màu về bình thường
-        System.out.println("\033[0m");
-        String RED = "\033[31m";
-        String WHITE = "\033[37m";
-        String RESET = "\033[0m";
-
-        // Chuỗi ASCII Art cho chữ "NETFLIX"
-        String[] netflixArt = {
-            "#####  ########  #######  ######  ######  ##     ## ",
-            "##  ## ##       ##     ## ##   ## ##   ## ###   ### ",
-            "##     ##       ##     ## ##   ## ##   ## #### #### ",
-            "#####  ######   ##     ## ######  ######  ## ### ## ",
-            "    ## ##       ##     ## ##      ##      ##     ## ",
-            "##  ## ##       ##     ## ##      ##      ##     ## ",
-            "#####  ########  #######  ##      ##      ##     ## "
-        };
-
-        // In từng dòng với màu sắc
-        for (int i = 0; i < netflixArt.length; i++) {
-            if (i % 2 == 0) { // Dòng chẵn màu đỏ
-                System.out.println(RED + netflixArt[i] + RESET);
-            } else { // Dòng lẻ màu trắng
-                System.out.println(WHITE + netflixArt[i] + RESET);
-            }
-        }
         System.out.println("************************************");
         System.out.println("*          Welcome to Java         *");
         System.out.println("*        Code with Nhom 4          *");
@@ -62,7 +37,9 @@ public class PhanMemQLQuanCafe {
         System.out.println("Xin chao ae!");
 
         System.out.println("Toi la Trung Kien");
-
+        System.out.println("Toi la Trung Kien");
+       
+        System.out.println("Toi la Trong Kien");
         System.out.println("al1");
         System.out.println("Toi la Anh Duc1");
         System.out.println("Toi la Tuan Minh");
