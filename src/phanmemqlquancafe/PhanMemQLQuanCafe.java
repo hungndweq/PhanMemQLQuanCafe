@@ -6,6 +6,7 @@ package phanmemqlquancafe;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Scanner;
 
 /**
  *
@@ -125,11 +126,20 @@ public class PhanMemQLQuanCafe {
             System.out.print(colors[i % colors.length] + text1.charAt(i));
         }
         System.out.println("Anh em nho moi ngay 1 commit nhe,toi thay ae van chua commit dau");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Nhap vao ten : ");
+        String ten = sc.nextLine();
+        System.out.println("Nhap vao dia chi");
+        String diaChi = sc.nextLine();
+        System.out.println("Nhap vao nam sinh : ");
+        int namSinh = sc.nextInt();
+        sc.nextLine();
+
+        System.out.println("-------------");
+        System.out.println("Thong tin vua nhap la");
+        System.out.println("Ten : " + ten);
+        System.out.println("Dia chi : " + diaChi);
+        System.out.println("Nam sinh : " + namSinh);
     }
-     
-    
-
-    
-
 
 }
