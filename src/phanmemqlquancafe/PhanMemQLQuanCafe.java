@@ -6,6 +6,7 @@ package phanmemqlquancafe;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Scanner;
 
 /**
  *
@@ -18,31 +19,6 @@ public class PhanMemQLQuanCafe {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        // Reset màu về bình thường
-        System.out.println("\033[0m");
-        String RED = "\033[31m";
-        String WHITE = "\033[37m";
-        String RESET = "\033[0m";
-
-        // Chuỗi ASCII Art cho chữ "NETFLIX"
-        String[] netflixArt = {
-            "#####  ########  #######  ######  ######  ##     ## ",
-            "##  ## ##       ##     ## ##   ## ##   ## ###   ### ",
-            "##     ##       ##     ## ##   ## ##   ## #### #### ",
-            "#####  ######   ##     ## ######  ######  ## ### ## ",
-            "    ## ##       ##     ## ##      ##      ##     ## ",
-            "##  ## ##       ##     ## ##      ##      ##     ## ",
-            "#####  ########  #######  ##      ##      ##     ## "
-        };
-
-        // In từng dòng với màu sắc
-        for (int i = 0; i < netflixArt.length; i++) {
-            if (i % 2 == 0) { // Dòng chẵn màu đỏ
-                System.out.println(RED + netflixArt[i] + RESET);
-            } else { // Dòng lẻ màu trắng
-                System.out.println(WHITE + netflixArt[i] + RESET);
-            }
-        }
         System.out.println("************************************");
         System.out.println("*          Welcome to Java         *");
         System.out.println("*        Code with Nhom 4          *");
@@ -61,7 +37,9 @@ public class PhanMemQLQuanCafe {
         System.out.println("Xin chao ae!");
 
         System.out.println("Toi la Trung Kien");
-
+        System.out.println("Toi la Trung Kien");
+       
+        System.out.println("Toi la Trong Kien");
         System.out.println("al1");
         System.out.println("Toi la Anh Duc1");
         System.out.println("Toi la Tuan Minh");
@@ -125,6 +103,35 @@ public class PhanMemQLQuanCafe {
             System.out.print(colors[i % colors.length] + text1.charAt(i));
         }
         System.out.println("Anh em nho moi ngay 1 commit nhe,toi thay ae van chua commit dau");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Nhap vao ten : ");
+        String ten = sc.nextLine();
+        System.out.println("Nhap vao dia chi");
+        String diaChi = sc.nextLine();
+        System.out.println("Nhap vao nam sinh : ");
+        int namSinh = sc.nextInt();
+        sc.nextLine();
+
+        System.out.println("-------------");
+        System.out.println("Thong tin vua nhap la");
+        System.out.println("Ten : " + ten);
+        System.out.println("Dia chi : " + diaChi);
+        System.out.println("Nam sinh : " + namSinh);
+        System.out.println("Merge pull theo yeu cau");
+
+        System.out.println("fwf");
+        System.out.println("Kiene");
+
+         System.out.println("Toi la Tuan Minh commit ngay 2 lan 3");
+           System.out.println("Toi la Tuan Minh commit ngay 2 lan 3");
+
+           vavaa
+
+           System.out.println("bkuqwhfeuwf");
+           ksksks
+
+
+
     }
 
 }

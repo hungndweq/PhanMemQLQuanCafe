@@ -9,6 +9,9 @@ package Model;
  * @author Hyun
  */
 public class KhachHang {
+<<<<<<< HEAD
+    
+=======
     private String idKhachHang;
     private String tenKhachHang;
     private String email;
@@ -56,4 +59,5 @@ public class KhachHang {
     public void setSdt(String sdt) {
         this.sdt = sdt;
     }
+>>>>>>> 19737577e7a3cc60c8dd22f4af25436e91c7b6f6
 }

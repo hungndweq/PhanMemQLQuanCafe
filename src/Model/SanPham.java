@@ -9,6 +9,9 @@ package Model;
  * @author Hyun
  */
 public class SanPham {
+<<<<<<< HEAD
+    
+=======
     private String idSanPham;
     private String tenSanPham;
     private int soLuong;
@@ -56,4 +59,5 @@ public class SanPham {
     public void setGiaBan(double giaBan) {
         this.giaBan = giaBan;
     }
+>>>>>>> 19737577e7a3cc60c8dd22f4af25436e91c7b6f6
 }

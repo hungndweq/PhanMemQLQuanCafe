@@ -8,6 +8,11 @@ package Model;
  *
  * @author Hyun
  */
+<<<<<<< HEAD
+public class NhanVien {
+    
+}
+=======
 import java.time.LocalDateTime;
 
 public class NhanVien {
@@ -80,3 +85,4 @@ public class NhanVien {
     }
 }
 
+>>>>>>> 19737577e7a3cc60c8dd22f4af25436e91c7b6f6
