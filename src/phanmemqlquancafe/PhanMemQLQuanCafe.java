@@ -132,10 +132,7 @@ public class PhanMemQLQuanCafe {
            vavaa
 
            System.out.println("bkuqwhfeuwf");
-           ksksks
-           ipwejipw4heipghw
-           whnfowgheogh
-           ihgoiweahgioehepiwefpi
+          
 
     }
 
