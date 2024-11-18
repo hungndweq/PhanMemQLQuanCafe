@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package test;
+package UserNhanVien;
 
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
@@ -85,6 +85,11 @@ repsitory rep = new repsitory();
                 "id", "pass", "name", "email", "admin"
             }
         ));
+        tableNhanVie.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tableNhanVieMouseClicked(evt);
+            }
+        });
         jScrollPane1.setViewportView(tableNhanVie);
 
         addNew.setText("addNew");
@@ -179,6 +184,17 @@ repsitory rep = new repsitory();
             JOptionPane.showMessageDialog(this, "them that bai");
         }
     }//GEN-LAST:event_addNewMouseClicked
+
+    private void tableNhanVieMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tableNhanVieMouseClicked
+        // TODO add your handling code here:
+        int row = tableNhanVie.getSelectedRow();
+        NhanVien nhanVien = rep.getList().get(row);
+        txtID.setText(nhanVien.getId());
+        txtPass.setText(nhanVien.getPassword());
+        txtName.setText(nhanVien.getFullname());
+        txtEmail.setText(nhanVien.getEmail());
+        txtAdmin.setText(nhanVien.getAdmin());
+    }//GEN-LAST:event_tableNhanVieMouseClicked
 
     /**
      * @param args the command line arguments

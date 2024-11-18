@@ -1,21 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
-    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-<<<<<<< HEAD
-        <group/>
-=======
-        <group>
-            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/phanmemqlquancafe/PhanMemQLQuanCafe.java</file>
-            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Model/NhanVien.java</file>
-            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Interface/QLBHUI.java</file>
-            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Model/SanPham.java</file>
-            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Model/HoaDon.java</file>
-            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Interface/QLNVUi.java</file>
-            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Repositories/DBConnection.java</file>
-            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Model/KhachHang.java</file>
-            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Repositories/DBQuery.java</file>
-        </group>
->>>>>>> 436740462203dc18afb13416abee295472f30460
-    </open-files>
 </project-private>
