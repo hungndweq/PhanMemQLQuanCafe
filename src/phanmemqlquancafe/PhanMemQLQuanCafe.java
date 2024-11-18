@@ -118,8 +118,17 @@ public class PhanMemQLQuanCafe {
         System.out.println("Dia chi : " + diaChi);
         System.out.println("Nam sinh : " + namSinh);
         System.out.println("Merge pull theo yeu cau");
+
+        System.out.println("fwf");
+        System.out.println("Kiene");
+
          System.out.println("Toi la Tuan Minh commit ngay 2 lan 3");
-         System.out.println("Merge pull theo yeu cau 2");
+           System.out.println("Toi la Tuan Minh commit ngay 2 lan 3");
+
+           System.out.println("bkuqwhfeuwf");
+
+
+
     }
 
 }
