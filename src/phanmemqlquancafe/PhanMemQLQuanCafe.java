@@ -18,29 +18,38 @@ public class PhanMemQLQuanCafe {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("************************************");
+        System.out.println("*          Welcome to Java         *");
+        System.out.println("*        Code with Nhom 4          *");
+        System.out.println("************************************");
+        System.out.println("    *    ");
+        System.out.println("   ***   ");
+        System.out.println("  *****  ");
+        System.out.println(" ******* ");
+        System.out.println("    |    ");
+        System.out.println(" Merry Christmas!");
+        System.out.println("=====================================");
+        System.out.println("|           JAVA PROGRAM            |");
+        System.out.println("=====================================");
+        System.out.println("           Let's get started!        ");
+
         System.out.println("Xin chao ae!");
-        
-        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Toi la Trung Kien");
+        System.out.println("Toi la Trung Kien");
+       
+        System.out.println("Toi la Trong Kien");
+        System.out.println("al1");
+        System.out.println("Toi la Anh Duc1");
+        System.out.println("Toi la Tuan Minh");
+
+        System.out.println("Moi ngay 1 commit1");
+        System.out.println("Nho commit nhe moi nguoi");
+        System.out.println("Huong dan moi nguoi/video");
+        System.out.println("Kang Da Gyeom la Duy hung nhe moi nguoi");
         
 
-        System.out.print("Nhập năm sinh của bạn: ");
-        int namSinh = scanner.nextInt();
-        
 
-        int namHienTai = LocalDate.now().getYear();
-        
-
-        int tuoi = namHienTai - namSinh;
-        
-
-        if (tuoi >= 0) {
-            System.out.println("Tuổi của bạn là: " + tuoi + " tuổi.");
-        } else {
-            System.out.println("Năm sinh không hợp lệ!");
-        }
-
-        scanner.close();
-    
     }
     
 }
