@@ -50,6 +50,7 @@ public class PhanMemQLQuanCafe {
         System.out.println("Kang Da Gyeom la Duy hung nhe moi nguoi");
 
         whfphjewpigjpwigjpi
+        wegwegWG
 
         int rows = 10; // Số dòng tam giác Pascal
 
@@ -132,8 +133,7 @@ public class PhanMemQLQuanCafe {
 
            System.out.println("bkuqwhfeuwf");
            ksksks
-
-
+           ipwejipw4heipghw
 
     }
 
