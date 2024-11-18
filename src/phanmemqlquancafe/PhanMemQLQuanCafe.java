@@ -117,7 +117,7 @@ public class PhanMemQLQuanCafe {
         System.out.println("Ten : " + ten);
         System.out.println("Dia chi : " + diaChi);
         System.out.println("Nam sinh : " + namSinh);
-        System.out.println("Merge pull");
+        System.out.println("Merge pull theo yeu cau");
     }
 
 }
