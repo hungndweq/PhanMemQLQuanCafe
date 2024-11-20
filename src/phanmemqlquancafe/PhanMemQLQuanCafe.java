@@ -133,7 +133,60 @@ public class PhanMemQLQuanCafe {
 
            System.out.println("bkuqwhfeuwf");
            
+           // Kiểu dữ liệu nguyên thủy int 
+           intVar = 42; double doubleVar = 3.14;
+            char charVar = 'A'; 
+            boolean boolVar = true; 
+            System.out.println("Kiểu nguyên thủy:"); 
+            System.out.println("int: " + intVar); 
+            System.out.println("double: " + doubleVar); 
+            System.out.println("char: " + charVar); 
+            System.out.println("boolean: " + boolVar); 
+            // Kiểu dữ liệu đối tượng 
+            String stringVar = "Hello, World!"; 
+            Integer integerObj = 123;
+            Double doubleObj = 45.67; 
+            System.out.println("\nKiểu đối tượng:"); 
+            System.out.println("String: " + stringVar); 
+            System.out.println("Integer: " + integerObj); 
+            System.out.println("Double: " + doubleObj); 
+            // Một số phương thức hữu ích của kiểu dữ liệu đối tượng 
+            System.out.println("\nMột số phương thức của kiểu đối tượng:");
+            System.out.println("Độ dài của chuỗi: " + stringVar.length()); 
+            System.out.println("Ký tự tại vị trí 1 trong chuỗi: " + stringVar.charAt(1)); 
+            System.out.println("Giá trị tuyệt đối của Integer: " + Math.abs(integerObj));
+            System.out.println("Giá trị lớn nhất giữa Integer và Double: " + Math.max(integerObj, doubleObj.intValue()));
+            // Tính chất đặc biệt của một số kiểu dữ liệu 
+            System.out.println("\nTính chất đặc biệt:");
+            System.out.println("Min value of int: " + Integer.MIN_VALUE); 
+            System.out.println("Max value of int: " + Integer.MAX_VALUE); 
+            System.out.println("Max value of double: " + Double.MAX_VALUE); 
+            System.out.println("Boolean TRUE: " + Boolean.TRUE);
 
+
+            public class ForLoopExample1 {
+                public static void main(String[] args) {
+                    // Vòng lặp for đơn giản
+                    for (int i = 1; i <= 10; i++) {
+                        System.out.println("Số: " + i);
+                    }
+                }
+            }
+
+            public class ForLoopExample2 {
+                public static void main(String[] args) {
+                    // Vòng lặp for lồng nhau
+                    for (int i = 1; i <= 5; i++) {
+                        System.out.println("Bảng cửu chương của " + i);
+                        for (int j = 1; j <= 10; j++) {
+                            System.out.println(i + " x " + j + " = " + (i * j));
+                        }
+                        System.out.println(); // Dòng trống để phân tách các bảng cửu chương
+                    }
+                }
+            }
+            
+            
     }
 
 }
