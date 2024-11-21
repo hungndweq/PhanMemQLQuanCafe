@@ -247,7 +247,7 @@ public class PhanMemQLQuanCafe {
         int sum = num1 + num2;
          System.out.println("Tổng của hai số là: " + sum); 
          scanner.close();
-
+        oehogegheihgewshehoggoho
 
 
     }
