@@ -186,34 +186,7 @@ public class PhanMemQLQuanCafe {
                 }
             }
             
-            Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Nhập cân nặng (kg): ");
-        double canNang = scanner.nextDouble();
-
-        System.out.print("Nhập chiều cao (m): ");
-        double chieuCao = scanner.nextDouble();
-
-        double bmi = canNang / (chieuCao * chieuCao);
-
-        System.out.println("Chỉ số BMI của bạn là: " + bmi);
-
-        // Thêm phần xếp loại BMI nếu muốn
-        if (bmi < 18.5) {
-            System.out.println("Bạn đang bị gầy.");
-        } else if (bmi < 25) {
-            System.out.println("Bạn có cân nặng bình thường.");
-        } else if (bmi < 30) {
-            System.out.println("Bạn đang thừa cân.");
-        } else {
-            System.out.println("Bạn đang bị béo phì.");
-        } 
-
-        
-        anh em vao ma commit di nhe
-
-
-        System.out.print("Nhập tên của bạn: "); 
+           System.out.print("Nhập tên của bạn: "); 
         String name = scanner.nextLine(); 
         System.out.print("Nhập tuổi của bạn: "); 
         int age = scanner.nextInt(); 
@@ -229,17 +202,8 @@ public class PhanMemQLQuanCafe {
         System.out.println("Tuổi: " + age); 
         System.out.println("Giới tính: " + gender);
         System.out.println("Địa chỉ: " + address);
-
-
-
-        System.out.print("Nhập số thứ nhất: "); 
-        int num1 = scanner.nextInt(); 
-        System.out.print("Nhập số thứ hai: "); 
-        int num2 = scanner.nextInt(); 
-        int sum = num1 + num2;
-         System.out.println("Tổng của hai số là: " + sum); 
-         scanner.close();
-
+            
+            
 
     }
 
