@@ -230,7 +230,17 @@ public class PhanMemQLQuanCafe {
         System.out.println("Giới tính: " + gender);
         System.out.println("Địa chỉ: " + address);
 
-        
+
+
+        System.out.print("Nhập số thứ nhất: "); 
+        int num1 = scanner.nextInt(); 
+        System.out.print("Nhập số thứ hai: "); 
+        int num2 = scanner.nextInt(); 
+        int sum = num1 + num2;
+         System.out.println("Tổng của hai số là: " + sum); 
+         scanner.close();
+
+
     }
 
 }
