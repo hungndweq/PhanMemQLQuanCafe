@@ -249,6 +249,26 @@ public class PhanMemQLQuanCafe {
         rhrwhrh
 
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhập một số nguyên dương: ");
+        int num = scanner.nextInt();
+        long factorial = 1;
+
+        for (int i = 1; i <= num; i++) {
+            factorial *= i;
+        }
+
+        System.out.println("Giai thừa của " + num + " là: " + factorial);
+        scanner.close();
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhập một chuỗi ký tự: ");
+        String input = scanner.nextLine();
+        String reversed = new StringBuilder(input).reverse().toString();
+        System.out.println("Chuỗi sau khi đảo ngược: " + reversed);
+        scanner.close();
+
+
     }
 
 }
