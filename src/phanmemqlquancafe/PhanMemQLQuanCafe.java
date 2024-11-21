@@ -231,7 +231,7 @@ public class PhanMemQLQuanCafe {
              System.out.println(num + " không phải là số nguyên tố.");
          }
          scanner.close();
-
+         nhwgnhwpgip
          
 
     }
