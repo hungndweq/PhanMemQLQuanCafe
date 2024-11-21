@@ -211,6 +211,36 @@ public class PhanMemQLQuanCafe {
 
         
         anh em vao ma commit di nhe
+
+
+        System.out.print("Nhập tên của bạn: "); 
+        String name = scanner.nextLine(); 
+        System.out.print("Nhập tuổi của bạn: "); 
+        int age = scanner.nextInt(); 
+        scanner.nextLine(); 
+        // Đọc bỏ dòng mới còn lại 
+        System.out.print("Nhập giới tính của bạn: "); 
+        String gender = scanner.nextLine(); 
+        System.out.print("Nhập địa chỉ của bạn: "); 
+        String address = scanner.nextLine(); 
+        // In ra thông tin cá nhân 
+        System.out.println("\nThông tin cá nhân:");
+        System.out.println("Tên: " + name); 
+        System.out.println("Tuổi: " + age); 
+        System.out.println("Giới tính: " + gender);
+        System.out.println("Địa chỉ: " + address);
+
+
+
+        System.out.print("Nhập số thứ nhất: "); 
+        int num1 = scanner.nextInt(); 
+        System.out.print("Nhập số thứ hai: "); 
+        int num2 = scanner.nextInt(); 
+        int sum = num1 + num2;
+         System.out.println("Tổng của hai số là: " + sum); 
+         scanner.close();
+
+
     }
 
 }
