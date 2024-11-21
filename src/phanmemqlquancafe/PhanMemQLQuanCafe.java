@@ -245,8 +245,6 @@ public class PhanMemQLQuanCafe {
 
         oehogegheihgewshehoggoho
         Duy hung di test
-
-
         hiphfipahfip
         rhrwhrh
 
