@@ -132,6 +132,9 @@ public class PhanMemQLQuanCafe {
            vavaa
 
            System.out.println("bkuqwhfeuwf");
+
+        ipwqogfwqogwo[goqgnhowgnheo9hgno9eo9aeew0oj]
+
            
            // Kiểu dữ liệu nguyên thủy int 
            intVar = 42; double doubleVar = 3.14;
@@ -239,6 +242,7 @@ public class PhanMemQLQuanCafe {
         int sum = num1 + num2;
          System.out.println("Tổng của hai số là: " + sum); 
          scanner.close();
+
 
 
     }
