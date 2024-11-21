@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
-<<<<<<< HEAD
-=======
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-<<<<<<< HEAD
         <group>
-            <file>file:/C:/Users/dokie/OneDrive/Máy%20tính/PhanMemQLQuanCafe/src/phanmemqlquancafe/PhanMemQLQuanCafe.java</file>
-        </group>
-=======
-<<<<<<< HEAD
-        <group/>
-=======
-        <group>
-            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/phanmemqlquancafe/PhanMemQLQuanCafe.java</file>
-            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Model/NhanVien.java</file>
-            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Interface/QLBHUI.java</file>
-            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Model/SanPham.java</file>
-            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Model/HoaDon.java</file>
-            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Interface/QLNVUi.java</file>
-            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Repositories/DBConnection.java</file>
-            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Model/KhachHang.java</file>
             <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Repositories/DBQuery.java</file>
+            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Model/NhanVien.java</file>
+            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Interface/QLNVUi.java</file>
+            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Model/SanPham.java</file>
+            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Model/KhachHang.java</file>
+            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/Interface/QLBHUI.java</file>
+            <file>file:/C:/Users/Hyun/Desktop/PhanMemQLQuanCafe/src/phanmemqlquancafe/PhanMemQLQuanCafe.java</file>
         </group>
->>>>>>> 436740462203dc18afb13416abee295472f30460
->>>>>>> 19737577e7a3cc60c8dd22f4af25436e91c7b6f6
     </open-files>
->>>>>>> 249625926b08276137167ffa2df9d3f3a228e831
 </project-private>

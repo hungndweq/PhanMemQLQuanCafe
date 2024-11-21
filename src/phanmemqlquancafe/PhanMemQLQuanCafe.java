@@ -132,7 +132,118 @@ public class PhanMemQLQuanCafe {
            vavaa
 
            System.out.println("bkuqwhfeuwf");
+
         ipwqogfwqogwo[goqgnhowgnheo9hgno9eo9aeew0oj]
+
+           
+           // Kiểu dữ liệu nguyên thủy int 
+           intVar = 42; double doubleVar = 3.14;
+            char charVar = 'A'; 
+            boolean boolVar = true; 
+            System.out.println("Kiểu nguyên thủy:"); 
+            System.out.println("int: " + intVar); 
+            System.out.println("double: " + doubleVar); 
+            System.out.println("char: " + charVar); 
+            System.out.println("boolean: " + boolVar); 
+            // Kiểu dữ liệu đối tượng 
+            String stringVar = "Hello, World!"; 
+            Integer integerObj = 123;
+            Double doubleObj = 45.67; 
+            System.out.println("\nKiểu đối tượng:"); 
+            System.out.println("String: " + stringVar); 
+            System.out.println("Integer: " + integerObj); 
+            System.out.println("Double: " + doubleObj); 
+            // Một số phương thức hữu ích của kiểu dữ liệu đối tượng 
+            System.out.println("\nMột số phương thức của kiểu đối tượng:");
+            System.out.println("Độ dài của chuỗi: " + stringVar.length()); 
+            System.out.println("Ký tự tại vị trí 1 trong chuỗi: " + stringVar.charAt(1)); 
+            System.out.println("Giá trị tuyệt đối của Integer: " + Math.abs(integerObj));
+            System.out.println("Giá trị lớn nhất giữa Integer và Double: " + Math.max(integerObj, doubleObj.intValue()));
+            // Tính chất đặc biệt của một số kiểu dữ liệu 
+            System.out.println("\nTính chất đặc biệt:");
+            System.out.println("Min value of int: " + Integer.MIN_VALUE); 
+            System.out.println("Max value of int: " + Integer.MAX_VALUE); 
+            System.out.println("Max value of double: " + Double.MAX_VALUE); 
+            System.out.println("Boolean TRUE: " + Boolean.TRUE);
+
+
+            public class ForLoopExample1 {
+                public static void main(String[] args) {
+                    // Vòng lặp for đơn giản
+                    for (int i = 1; i <= 10; i++) {
+                        System.out.println("Số: " + i);
+                    }
+                }
+            }
+
+            public class ForLoopExample2 {
+                public static void main(String[] args) {
+                    // Vòng lặp for lồng nhau
+                    for (int i = 1; i <= 5; i++) {
+                        System.out.println("Bảng cửu chương của " + i);
+                        for (int j = 1; j <= 10; j++) {
+                            System.out.println(i + " x " + j + " = " + (i * j));
+                        }
+                        System.out.println(); // Dòng trống để phân tách các bảng cửu chương
+                    }
+                }
+            }
+            
+            Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Nhập cân nặng (kg): ");
+        double canNang = scanner.nextDouble();
+
+        System.out.print("Nhập chiều cao (m): ");
+        double chieuCao = scanner.nextDouble();
+
+        double bmi = canNang / (chieuCao * chieuCao);
+
+        System.out.println("Chỉ số BMI của bạn là: " + bmi);
+
+        // Thêm phần xếp loại BMI nếu muốn
+        if (bmi < 18.5) {
+            System.out.println("Bạn đang bị gầy.");
+        } else if (bmi < 25) {
+            System.out.println("Bạn có cân nặng bình thường.");
+        } else if (bmi < 30) {
+            System.out.println("Bạn đang thừa cân.");
+        } else {
+            System.out.println("Bạn đang bị béo phì.");
+        } 
+
+        
+        anh em vao ma commit di nhe
+
+
+        System.out.print("Nhập tên của bạn: "); 
+        String name = scanner.nextLine(); 
+        System.out.print("Nhập tuổi của bạn: "); 
+        int age = scanner.nextInt(); 
+        scanner.nextLine(); 
+        // Đọc bỏ dòng mới còn lại 
+        System.out.print("Nhập giới tính của bạn: "); 
+        String gender = scanner.nextLine(); 
+        System.out.print("Nhập địa chỉ của bạn: "); 
+        String address = scanner.nextLine(); 
+        // In ra thông tin cá nhân 
+        System.out.println("\nThông tin cá nhân:");
+        System.out.println("Tên: " + name); 
+        System.out.println("Tuổi: " + age); 
+        System.out.println("Giới tính: " + gender);
+        System.out.println("Địa chỉ: " + address);
+
+
+
+        System.out.print("Nhập số thứ nhất: "); 
+        int num1 = scanner.nextInt(); 
+        System.out.print("Nhập số thứ hai: "); 
+        int num2 = scanner.nextInt(); 
+        int sum = num1 + num2;
+         System.out.println("Tổng của hai số là: " + sum); 
+         scanner.close();
+
+
 
     }
 
