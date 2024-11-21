@@ -132,8 +132,13 @@ public class PhanMemQLQuanCafe {
            vavaa
 
            System.out.println("bkuqwhfeuwf");
+<<<<<<< HEAD
+        
+           ho9wgh9powhgo9pehgpo9ho9ph
+=======
 
         ipwqogfwqogwo[goqgnhowgnheo9hgno9eo9aeew0oj]
+>>>>>>> b0a2fafd7456de3062e71606910877d63f4d5a69
 
            
            // Kiểu dữ liệu nguyên thủy int 
