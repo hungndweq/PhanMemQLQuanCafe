@@ -276,6 +276,15 @@ public class PhanMemQLQuanCafe {
         System.out.println("Chuỗi sau khi đảo ngược: " + reversed);
         scanner.close();
 
+        int[] arr = {5, 3, 8, 2, 7, 1, 4};
+        int max = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+        System.out.println("Giá trị lớn nhất trong mảng là: " + max);
+
 
     }
 
