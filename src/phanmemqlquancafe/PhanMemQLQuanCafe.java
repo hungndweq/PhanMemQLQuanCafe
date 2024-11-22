@@ -353,7 +353,15 @@ public class PhanMemQLQuanCafe {
     } else {
         return false;
     }
-    
+    System.out.print("Nhập số phần tử của dãy Fibonacci cần tính: ");
+     int n = scanner.nextInt(); System.out.println("Dãy Fibonacci:");
+      for (int i = 0; i < n; i++) { System.out.print(fibonacci(i) + " "); } 
+      scanner.close(); } 
+     int fibonacci(int n) { if (n <= 1)
+         { return n; } 
+         else 
+         { return fibonacci(n - 1) + fibonacci(n - 2); 
+        }
 
 
 
