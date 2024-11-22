@@ -332,9 +332,21 @@ public class PhanMemQLQuanCafe {
         }
     }
 
+    System.out.print("Nhập một chuỗi số: ");
+    String input = scanner.nextLine();
+    try {
+        int result = Integer.parseInt(input);
+        System.out.println("Số nguyên là: " + result);
+    } catch (NumberFormatException e) {
+        System.out.println("Chuỗi không phải là một số hợp lệ.");
+    }
+    scanner.close();
+    
+
 
 
 
     }
 
 }
+
