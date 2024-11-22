@@ -301,7 +301,31 @@ public class PhanMemQLQuanCafe {
         }
 
         System.out.println("Số lớn thứ hai trong mảng là: " + secondLargest);
-        
+
+
+        int[] arr = {5, 2, 9, 1, 5, 6};
+        bubbleSort(arr);
+        System.out.println("Mảng sau khi sắp xếp:");
+        for (int i : arr) {
+            System.out.print(i + " ");
+        }
+
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    // Đổi chỗ
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+
+
+
     }
 
 }
