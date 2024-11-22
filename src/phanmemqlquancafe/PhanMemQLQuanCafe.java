@@ -286,6 +286,15 @@ public class PhanMemQLQuanCafe {
         System.out.println("Giá trị lớn nhất trong mảng là: " + max);
 
 
+        int[] arr = {1, 2, 3, 4, 5};
+        int sum = 0;
+        for (int i : arr) {
+            sum += i;
+        }
+        double average = (double) sum / arr.length;
+        System.out.println("Giá trị trung bình của các phần tử trong mảng là: " + average);
+
+
     }
 
 }
