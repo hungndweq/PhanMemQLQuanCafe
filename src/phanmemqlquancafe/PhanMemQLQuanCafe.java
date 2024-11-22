@@ -125,13 +125,13 @@ public class PhanMemQLQuanCafe {
          System.out.println("Toi la Tuan Minh commit ngay 2 lan 3");
            System.out.println("Toi la Tuan Minh commit ngay 2 lan 3");
 
-           vavaa
 
            System.out.println("bkuqwhfeuwf");
-           ksksks
+          
 
+System.out.print("Toi la Tuan Minh Ngay 3");
 
-
+System.out.print("Toi la Tuan Minh Ngay 4");
     }
 
 }
