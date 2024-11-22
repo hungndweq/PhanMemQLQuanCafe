@@ -277,6 +277,31 @@ public class PhanMemQLQuanCafe {
         scanner.close();
 
 
+        int[] arr = {1, 2, 3, 4, 5};
+        int sum = 0;
+        for (int i : arr) {
+            sum += i;
+        }
+        double average = (double) sum / arr.length;
+        System.out.println("Giá trị trung bình của các phần tử trong mảng là: " + average);
+
+
+
+        int[] arr = {10, 20, 4, 45, 99};
+        int largest = Integer.MIN_VALUE;
+        int secondLargest = Integer.MIN_VALUE;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > largest) {
+                secondLargest = largest;
+                largest = arr[i];
+            } else if (arr[i] > secondLargest && arr[i] != largest) {
+                secondLargest = arr[i];
+            }
+        }
+
+        System.out.println("Số lớn thứ hai trong mảng là: " + secondLargest);
+        
     }
 
 }
