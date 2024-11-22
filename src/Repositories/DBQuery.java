@@ -22,11 +22,15 @@ public class DBQuery {
     ArrayList<HoaDon> al3 = new ArrayList<>();
     public ArrayList<SanPham> getSP(){
         String query = "SELECT * FROM san_pham";
-        try(Connection conn = bConnection.getconnect) {
+        try(Connection conn = bConnection.get) {
 
         } catch (java.lang.Exception e) {
             throw new RuntimeException(e);
         }
         return al;
+    }
+
+    public static void main(String[] args) {
+
     }
 }
