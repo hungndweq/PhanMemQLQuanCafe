@@ -347,7 +347,8 @@ public class PhanMemQLQuanCafe {
     
         System.out.println("Toi la duc ");    
 
-
+        System.out.println("Toi la duc 2 222 ");   
+       
     }
 
 }
