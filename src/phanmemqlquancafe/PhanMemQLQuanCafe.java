@@ -276,15 +276,6 @@ public class PhanMemQLQuanCafe {
         System.out.println("Chuỗi sau khi đảo ngược: " + reversed);
         scanner.close();
 
-        int[] arr = {5, 3, 8, 2, 7, 1, 4};
-        int max = arr[0];
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] > max) {
-                max = arr[i];
-            }
-        }
-        System.out.println("Giá trị lớn nhất trong mảng là: " + max);
-
 
         int[] arr = {1, 2, 3, 4, 5};
         int sum = 0;
@@ -353,6 +344,7 @@ public class PhanMemQLQuanCafe {
     } else {
         return false;
     }
+
     System.out.print("Nhập số phần tử của dãy Fibonacci cần tính: ");
      int n = scanner.nextInt(); System.out.println("Dãy Fibonacci:");
       for (int i = 0; i < n; i++) { System.out.print(fibonacci(i) + " "); } 
@@ -362,6 +354,10 @@ public class PhanMemQLQuanCafe {
          else 
          { return fibonacci(n - 1) + fibonacci(n - 2); 
         }
+
+
+    
+        System.out.println("Toi la duc ");    
 
 
 
