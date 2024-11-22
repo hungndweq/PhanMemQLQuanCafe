@@ -269,6 +269,14 @@ public class PhanMemQLQuanCafe {
         scanner.close();
 
 
+
+        System.out.print("Nhập một chuỗi ký tự: ");
+        String input = scanner.nextLine();
+        String reversed = new StringBuilder(input).reverse().toString();
+        System.out.println("Chuỗi sau khi đảo ngược: " + reversed);
+        scanner.close();
+
+
     }
 
 }
