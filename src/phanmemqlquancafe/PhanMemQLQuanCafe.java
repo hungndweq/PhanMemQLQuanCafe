@@ -129,11 +129,8 @@ public class PhanMemQLQuanCafe {
          System.out.println("Toi la Tuan Minh commit ngay 2 lan 3");
            System.out.println("Toi la Tuan Minh commit ngay 2 lan 3");
 
-           vavaa
 
            System.out.println("bkuqwhfeuwf");
-        
-           ho9wgh9powhgo9pehgpo9ho9ph
 
            
            // Kiểu dữ liệu nguyên thủy int 
@@ -246,6 +243,127 @@ public class PhanMemQLQuanCafe {
         Duc oi 9 commits co qua duoc mon khong ?
 
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhập một số nguyên dương: ");
+        int num = scanner.nextInt();
+        long factorial = 1;
+
+        for (int i = 1; i <= num; i++) {
+            factorial *= i;
+        }
+
+        System.out.println("Giai thừa của " + num + " là: " + factorial);
+        scanner.close();
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhập một chuỗi ký tự: ");
+        String input = scanner.nextLine();
+        String reversed = new StringBuilder(input).reverse().toString();
+        System.out.println("Chuỗi sau khi đảo ngược: " + reversed);
+        scanner.close();
+
+
+
+        System.out.print("Nhập một chuỗi ký tự: ");
+        String input = scanner.nextLine();
+        String reversed = new StringBuilder(input).reverse().toString();
+        System.out.println("Chuỗi sau khi đảo ngược: " + reversed);
+        scanner.close();
+
+
+        int[] arr = {1, 2, 3, 4, 5};
+        int sum = 0;
+        for (int i : arr) {
+            sum += i;
+        }
+        double average = (double) sum / arr.length;
+        System.out.println("Giá trị trung bình của các phần tử trong mảng là: " + average);
+
+
+
+        int[] arr = {10, 20, 4, 45, 99};
+        int largest = Integer.MIN_VALUE;
+        int secondLargest = Integer.MIN_VALUE;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > largest) {
+                secondLargest = largest;
+                largest = arr[i];
+            } else if (arr[i] > secondLargest && arr[i] != largest) {
+                secondLargest = arr[i];
+            }
+        }
+
+        System.out.println("Số lớn thứ hai trong mảng là: " + secondLargest);
+
+
+        int[] arr = {5, 2, 9, 1, 5, 6};
+        bubbleSort(arr);
+        System.out.println("Mảng sau khi sắp xếp:");
+        for (int i : arr) {
+            System.out.print(i + " ");
+        }
+
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    // Đổi chỗ
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
     }
+
+    System.out.print("Nhập một chuỗi số: ");
+
+    String input = scanner.nextLine();try
+    {
+        int result = Integer.parseInt(input);
+        System.out.println("Số nguyên là: " + result);
+    }catch(
+    NumberFormatException e)
+    {
+        System.out.println("Chuỗi không phải là một số hợp lệ.");
+    }scanner.close();
+
+    if(year%4==0)
+    {
+        if (year % 100 == 0) {
+            return year % 400 == 0;
+        } else {
+            return true;
+        }
+    }else
+    {
+        return false;
+    }
+
+    System.out.print("Nhập số phần tử của dãy Fibonacci cần tính: ");
+    int n = scanner.nextInt();System.out.println("Dãy Fibonacci:");for(
+    int i = 0;i<n;i++)
+    {
+        System.out.print(fibonacci(i) + " ");
+    }scanner.close();
+    }
+
+    int fibonacci(int n) {
+        if (n <= 1) {
+            return n;
+        } else {
+            return fibonacci(n - 1) + fibonacci(n - 2);
+        }
+
+        System.out.println("Toi la duc ");
+
+        System.out.print("Toi la Tuan Minh Ngay 3");
+
+        System.out.print("Toi la Tuan Minh Ngay 4.1");
+
+        System.out.print("Toi la Tuan Minh Ngay 4.3");
+    }
+    Duc oi  9 commits co qua duoc mon khong?
 
 }
