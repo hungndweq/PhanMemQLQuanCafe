@@ -243,10 +243,7 @@ public class PhanMemQLQuanCafe {
          System.out.println("Tổng của hai số là: " + sum); 
          scanner.close();
 
-        oehogegheihgewshehoggoho
-        Duy hung di test
-        hiphfipahfip
-        rhrwhrh
+        Duc oi 9 commits co qua duoc mon khong ?
 
 
     }
