@@ -129,11 +129,8 @@ public class PhanMemQLQuanCafe {
          System.out.println("Toi la Tuan Minh commit ngay 2 lan 3");
            System.out.println("Toi la Tuan Minh commit ngay 2 lan 3");
 
-           vavaa
 
            System.out.println("bkuqwhfeuwf");
-        
-           ho9wgh9powhgo9pehgpo9ho9ph
 
            
            // Kiểu dữ liệu nguyên thủy int 
@@ -360,7 +357,11 @@ public class PhanMemQLQuanCafe {
         System.out.println("Toi la duc ");    
 
 
+System.out.print("Toi la Tuan Minh Ngay 3");
 
+System.out.print("Toi la Tuan Minh Ngay 4.1");
+
+System.out.print("Toi la Tuan Minh Ngay 4.3");
     }
 
 }
