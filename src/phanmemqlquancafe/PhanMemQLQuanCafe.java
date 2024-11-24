@@ -364,6 +364,9 @@ public class PhanMemQLQuanCafe {
 
         System.out.println("Toi la duc 2.4 "); 
         System.out.println("Toi la duc 2.5 "); 
+
+        System.out.println("Toi la duc 2.6 "); 
+        System.out.println("Toi la duc 2.7 "); 
     }
 
 }
