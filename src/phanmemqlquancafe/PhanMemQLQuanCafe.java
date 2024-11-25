@@ -129,11 +129,8 @@ public class PhanMemQLQuanCafe {
          System.out.println("Toi la Tuan Minh commit ngay 2 lan 3");
            System.out.println("Toi la Tuan Minh commit ngay 2 lan 3");
 
-           vavaa
 
            System.out.println("bkuqwhfeuwf");
-        
-           ho9wgh9powhgo9pehgpo9ho9ph
 
            
            // Kiểu dữ liệu nguyên thủy int 
@@ -243,10 +240,7 @@ public class PhanMemQLQuanCafe {
          System.out.println("Tổng của hai số là: " + sum); 
          scanner.close();
 
-        oehogegheihgewshehoggoho
-        Duy hung di test
-        hiphfipahfip
-        rhrwhrh
+        Duc oi 9 commits co qua duoc mon khong ?
 
 
         Scanner scanner = new Scanner(System.in);
@@ -324,43 +318,61 @@ public class PhanMemQLQuanCafe {
     }
 
     System.out.print("Nhập một chuỗi số: ");
-    String input = scanner.nextLine();
-    try {
+
+    String input = scanner.nextLine();try
+    {
         int result = Integer.parseInt(input);
         System.out.println("Số nguyên là: " + result);
-    } catch (NumberFormatException e) {
+    }catch(
+    NumberFormatException e)
+    {
         System.out.println("Chuỗi không phải là một số hợp lệ.");
-    }
-    scanner.close();
+    }scanner.close();
 
-
-
-    if (year % 4 == 0) {
+    if(year%4==0)
+    {
         if (year % 100 == 0) {
             return year % 400 == 0;
         } else {
             return true;
         }
-    } else {
+    }else
+    {
         return false;
     }
 
     System.out.print("Nhập số phần tử của dãy Fibonacci cần tính: ");
-     int n = scanner.nextInt(); System.out.println("Dãy Fibonacci:");
-      for (int i = 0; i < n; i++) { System.out.print(fibonacci(i) + " "); } 
-      scanner.close(); } 
-     int fibonacci(int n) { if (n <= 1)
-         { return n; } 
-         else 
-         { return fibonacci(n - 1) + fibonacci(n - 2); 
+    int n = scanner.nextInt();System.out.println("Dãy Fibonacci:");for(
+    int i = 0;i<n;i++)
+    {
+        System.out.print(fibonacci(i) + " ");
+    }scanner.close();
+    }
+
+    int fibonacci(int n) {
+        if (n <= 1) {
+            return n;
+        } else {
+            return fibonacci(n - 1) + fibonacci(n - 2);
         }
 
+        System.out.println("Toi la duc ");
 
-    
-        System.out.println("Toi la duc ");    
+        System.out.print("Toi la Tuan Minh Ngay 3");
+
+        System.out.print("Toi la Tuan Minh Ngay 4.1");
+
 
 
         System.out.println("Toi la duc 2hgmfghmgf ");   
+
+System.out.print("Toi la Tuan Minh Ngay 4.3");
+
+System.out.print("Toi la Tuan Minh Ngay 4.4");
+
+System.out.print("Tuan Minh ngay 5");
+
+        System.out.print("Toi la Tuan Minh Ngay 4.3");
 
         System.out.println("Toi la duc 2.4 "); 
         System.out.println("Toi la duc 2.5 "); 
@@ -368,6 +380,6 @@ public class PhanMemQLQuanCafe {
         System.out.println("Toi la duc 2.6 "); 
         System.out.println("Toi la duc 2.7 "); 
     }
+   
 
 }
-
