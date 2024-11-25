@@ -363,14 +363,22 @@ public class PhanMemQLQuanCafe {
         System.out.print("Toi la Tuan Minh Ngay 4.1");
 
 
+
+        System.out.println("Toi la duc 2hgmfghmgf ");   
+
 System.out.print("Toi la Tuan Minh Ngay 4.3");
 
 System.out.print("Toi la Tuan Minh Ngay 4.4");
 
 System.out.print("Tuan Minh ngay 5");
-=======
+
         System.out.print("Toi la Tuan Minh Ngay 4.3");
 
+        System.out.println("Toi la duc 2.4 "); 
+        System.out.println("Toi la duc 2.5 "); 
+
+        System.out.println("Toi la duc 2.6 "); 
+        System.out.println("Toi la duc 2.7 "); 
     }
    
 
