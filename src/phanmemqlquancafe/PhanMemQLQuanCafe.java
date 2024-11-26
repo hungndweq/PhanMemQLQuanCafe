@@ -395,6 +395,21 @@ System.out.print("Tuan Minh ngay 5");
                 }
             }
         }
+
+
+        public class TryCatchExample {
+            public static void main(String[] args) {
+                try {
+                    int a = 10;
+                    int b = 0;
+                    int result = a / b;
+                    System.out.println("Kết quả: " + result);
+                } catch (ArithmeticException e) {
+                    System.out.println("Lỗi: Không thể chia cho số 0.");
+                }
+            }
+        }
+        
         
     }
    
