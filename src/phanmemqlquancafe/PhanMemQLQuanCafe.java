@@ -4,6 +4,9 @@
  */
 package phanmemqlquancafe;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
@@ -432,6 +435,26 @@ public class TryCatchFinallyExample {
                 System.out.println("Lỗi khi đóng file: " + e.getMessage());
             }
         }
+    }
+}
+
+
+
+
+public class DoWhileExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int number;
+        do {
+            System.out.print("Nhập một số dương: ");
+            number = scanner.nextInt();
+            if (number <= 0) {
+                System.out.println("Số không hợp lệ. Vui lòng nhập lại.");
+            }
+        } while (number <= 0);
+
+        System.out.println("Bạn đã nhập số dương: " + number);
+        scanner.close();
     }
 }
 
