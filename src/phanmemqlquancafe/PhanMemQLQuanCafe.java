@@ -385,6 +385,7 @@ System.out.print("Tuan Minh ngay 5");
         
         System.out.println("Toi la duc 3.0 "); 
         System.out.println("Toi la duc 3.1 "); 
+        System.out.println("Toi la duc 3.2 "); 
     }
    
 
