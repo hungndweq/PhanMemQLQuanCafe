@@ -379,6 +379,9 @@ System.out.print("Tuan Minh ngay 5");
 
         System.out.println("Toi la duc 2.6 "); 
         System.out.println("Toi la duc 2.7 "); 
+        
+        System.out.println("Toi la duc 2.8 "); 
+        System.out.println("Toi la duc 2.9 "); 
     }
    
 
