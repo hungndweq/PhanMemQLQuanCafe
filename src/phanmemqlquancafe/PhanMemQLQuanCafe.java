@@ -409,6 +409,32 @@ System.out.print("Tuan Minh ngay 5");
                 }
             }
         }
+
+        
+
+public class TryCatchFinallyExample {
+    public static void main(String[] args) {
+        BufferedReader reader = null;
+        try {
+            reader = new BufferedReader(new FileReader("example.txt"));
+            String line;
+            while ((line = reader.readLine()) != null) {
+                System.out.println(line);
+            }
+        } catch (IOException e) {
+            System.out.println("Lỗi khi đọc file: " + e.getMessage());
+        } finally {
+            try {
+                if (reader != null) {
+                    reader.close();
+                }
+            } catch (IOException e) {
+                System.out.println("Lỗi khi đóng file: " + e.getMessage());
+            }
+        }
+    }
+}
+
         
         
     }
