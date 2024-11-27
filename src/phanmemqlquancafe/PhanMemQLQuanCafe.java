@@ -372,20 +372,36 @@ System.out.print("Toi la Tuan Minh Ngay 4.4");
 
 System.out.print("Tuan Minh ngay 5");
 
-        System.out.print("Toi la Tuan Minh Ngay 4.3");
-
+        System.out.print("Toi la Tuan Minh Ngay 4.3")
+           System.out.print("Toi la Tuan Minh commit ngay 6");
         System.out.println("Toi la duc 2.4 "); 
         System.out.println("Toi la duc 2.5 "); 
+
+
+           System.out.print("Toi la Tuan Minh commit ngay 7");
+
 
         System.out.println("Toi la duc 2.6 "); 
         System.out.println("Toi la duc 2.7 "); 
         
         System.out.println("Toi la duc 2.8 "); 
-        System.out.println("Toi la duc 2.9 "); 
+        System.out.println("Toi la duc 2
         
         System.out.println("Toi la duc 3.0 "); 
         System.out.println("Toi la duc 3.1 "); 
-        System.out.println("Toi la duc 3.2 "); 
+        System.out.println("Toi la duc 3.2
+
+        public class WhileLoopExample {
+            public static void main(String[] args) {
+                int i = 1;
+                while (i <= 5) {
+                    System.out.println(i);
+                    i++;
+                }
+            }
+        }
+        
+
     }
    
 
