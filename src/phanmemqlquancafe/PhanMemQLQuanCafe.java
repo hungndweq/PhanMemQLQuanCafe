@@ -4,6 +4,9 @@
  */
 package phanmemqlquancafe;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
@@ -377,11 +380,24 @@ System.out.print("Tuan Minh ngay 5");
         System.out.println("Toi la duc 2.4 "); 
         System.out.println("Toi la duc 2.5 "); 
 
+
+           System.out.print("Toi la Tuan Minh commit ngay 7");
+
+
         System.out.println("Toi la duc 2.6 "); 
         System.out.println("Toi la duc 2.7 "); 
         
-        System.out.println("Toi la duc 2.8 "); 
+        System.out.println("Toi 
         System.out.println("Toi la duc 2.9 "); 
+
+
+
+        System.out.println("Toi la duc 2
+        
+        System.out.println("Toi la duc 3.0 "); 
+        System.out.println("Toi la duc 3.1 "); 
+        System.out.println("Toi la duc 3.2
+
 
         public class WhileLoopExample {
             public static void main(String[] args) {
@@ -394,10 +410,71 @@ System.out.print("Tuan Minh ngay 5");
         }
 
 
+
         System.out.println("Kien emm commit");
         ioeroierjigo
 
+        public class TryCatchExample {
+            public static void main(String[] args) {
+                try {
+                    int a = 10;
+                    int b = 0;
+                    int result = a / b;
+                    System.out.println("Kết quả: " + result);
+                } catch (ArithmeticException e) {
+                    System.out.println("Lỗi: Không thể chia cho số 0.");
+                }
+            }
+        }
+
         
+
+public class TryCatchFinallyExample {
+    public static void main(String[] args) {
+        BufferedReader reader = null;
+        try {
+            reader = new BufferedReader(new FileReader("example.txt"));
+            String line;
+            while ((line = reader.readLine()) != null) {
+                System.out.println(line);
+            }
+        } catch (IOException e) {
+            System.out.println("Lỗi khi đọc file: " + e.getMessage());
+        } finally {
+            try {
+                if (reader != null) {
+                    reader.close();
+                }
+            } catch (IOException e) {
+                System.out.println("Lỗi khi đóng file: " + e.getMessage());
+            }
+        }
+    }
+}
+
+
+
+
+public class DoWhileExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int number;
+        do {
+            System.out.print("Nhập một số dương: ");
+            number = scanner.nextInt();
+            if (number <= 0) {
+                System.out.println("Số không hợp lệ. Vui lòng nhập lại.");
+            }
+        } while (number <= 0);
+
+        System.out.println("Bạn đã nhập số dương: " + number);
+        scanner.close();
+    }
+}
+
+
+        
+
     }
 
 
