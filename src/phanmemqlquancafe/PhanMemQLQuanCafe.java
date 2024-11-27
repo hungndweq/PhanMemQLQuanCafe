@@ -498,6 +498,15 @@ System.out.println("Trung kien test commit 8");
 System.out.println("tétttttttt");
 System.out.println(ádasdasdasdas);
 
+public class StringToWords 
+{
+    public static void main(String[] args) 
+    { String sentence = "Học lập trình Java thật thú vị!"; 
+    String[] words = sentence.split(" "); 
+    System.out.println("Mảng các từ: " + Arrays.toString(words));
+    } 
+    }
+
         
 
 }
