@@ -377,6 +377,10 @@ System.out.print("Tuan Minh ngay 5");
         System.out.println("Toi la duc 2.4 "); 
         System.out.println("Toi la duc 2.5 "); 
 
+
+           System.out.print("Toi la Tuan Minh commit ngay 7");
+
+
         System.out.println("Toi la duc 2.6 "); 
         System.out.println("Toi la duc 2.7 "); 
         
