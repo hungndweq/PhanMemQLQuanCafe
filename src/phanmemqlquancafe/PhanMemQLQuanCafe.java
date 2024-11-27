@@ -337,11 +337,11 @@ public class PhanMemQLQuanCafe {
         if (year % 100 == 0) {
             return year % 400 == 0;
         } else {
-            return true;
+        
         }
     }else
     {
-        return false;
+        
     }
 
     System.out.print("Nhập số phần tử của dãy Fibonacci cần tính: ");
@@ -350,6 +350,7 @@ public class PhanMemQLQuanCafe {
     {
         System.out.print(fibonacci(i) + " ");
     }scanner.close();
+
     }
 
     int fibonacci(int n) {
@@ -494,7 +495,7 @@ public class DoWhileExample {
 
 System.out.println("Trung kien test commit 8");
 
-
+System.out.println("tétttttttt");
 
 
         
