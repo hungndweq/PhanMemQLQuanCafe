@@ -4,6 +4,9 @@
  */
 package phanmemqlquancafe;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
@@ -334,11 +337,11 @@ public class PhanMemQLQuanCafe {
         if (year % 100 == 0) {
             return year % 400 == 0;
         } else {
-            return true;
+        
         }
     }else
     {
-        return false;
+        
     }
 
     System.out.print("Nhập số phần tử của dãy Fibonacci cần tính: ");
@@ -347,6 +350,7 @@ public class PhanMemQLQuanCafe {
     {
         System.out.print(fibonacci(i) + " ");
     }scanner.close();
+
     }
 
     int fibonacci(int n) {
@@ -380,7 +384,135 @@ System.out.print("Tuan Minh ngay 5");
 
            System.out.print("Toi la Tuan Minh commit ngay 7");
 
+
+        System.out.println("Toi la duc 2.6 "); 
+        System.out.println("Toi la duc 2.7 "); 
+        
+        System.out.println("Toi 
+        System.out.println("Toi la duc 2.9 "); 
+
+
+
+        System.out.println("Toi la duc 2
+        
+        System.out.println("Toi la duc 3.0 "); 
+        System.out.println("Toi la duc 3.1 "); 
+        System.out.println("Toi la duc 3.2");
+
+        System.out.println("Toi la duc 3.3 "); 
+        System.out.println("Toi la duc 3.4");
+
+
+        public class WhileLoopExample {
+            public static void main(String[] args) {
+                int i = 1;
+                while (i <= 5) {
+                    System.out.println(i);
+                    i++;
+                }
+            }
+        }
+
+
+
+        System.out.println("Kien emm commit");
+        ioeroierjigo
+
+        public class TryCatchExample {
+            public static void main(String[] args) {
+                try {
+                    int a = 10;
+                    int b = 0;
+                    int result = a / b;
+                    System.out.println("Kết quả: " + result);
+                } catch (ArithmeticException e) {
+                    System.out.println("Lỗi: Không thể chia cho số 0.");
+                }
+            }
+        }
+
+        
+
+public class TryCatchFinallyExample {
+    public static void main(String[] args) {
+        BufferedReader reader = null;
+        try {
+            reader = new BufferedReader(new FileReader("example.txt"));
+            String line;
+            while ((line = reader.readLine()) != null) {
+                System.out.println(line);
+            }
+        } catch (IOException e) {
+            System.out.println("Lỗi khi đọc file: " + e.getMessage());
+        } finally {
+            try {
+                if (reader != null) {
+                    reader.close();
+                }
+            } catch (IOException e) {
+                System.out.println("Lỗi khi đóng file: " + e.getMessage());
+            }
+        }
+
     }
+}
+
+
+
+
+public class DoWhileExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int number;
+        do {
+            System.out.print("Nhập một số dương: ");
+            number = scanner.nextInt();
+            if (number <= 0) {
+                System.out.println("Số không hợp lệ. Vui lòng nhập lại.");
+            }
+        } while (number <= 0);
+
+        System.out.println("Bạn đã nhập số dương: " + number);
+        scanner.close();
+    }
+}
+    DUy Hung di commit
+
+    public class SumOddNumbers {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int sum = 0;
+
+        for (int i : arr) {
+            if (i % 2 != 0) {
+                sum += i;
+            }
+        }
+
+        System.out.println("Tổng các số lẻ trong mảng là: " + sum);
+    }
+}
+
+
+System.out.println("Trung kien test commit 8");
+
+System.out.println("tétttttttt");
+System.out.println(ádasdasdasdas);
+
+public class StringToWords 
+{
+    public static void main(String[] args) 
+    { String sentence = "Học lập trình Java thật thú vị!"; 
+    String[] words = sentence.split(" "); 
+    System.out.println("Mảng các từ: " + Arrays.toString(words));
+    } 
+    }
+
+        
+
+}
+
+
    
 
 }
