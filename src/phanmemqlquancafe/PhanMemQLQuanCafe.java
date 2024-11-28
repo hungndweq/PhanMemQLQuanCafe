@@ -537,6 +537,9 @@ public class WordCount {
 }
 
 
+System.out.println("Test 12 TrungKien1");
+System.out.println("Sua loi dang ton tai");
+
 }
 
 
