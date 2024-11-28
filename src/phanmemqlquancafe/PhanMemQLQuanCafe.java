@@ -379,6 +379,9 @@ System.out.print("Tuan Minh ngay 5");
 
            System.out.print("Toi la Tuan Minh commit ngay 7");
 
+                      System.out.print("Toi la Tuan Minh commit ngay 8");
+
+
     }
    
 
