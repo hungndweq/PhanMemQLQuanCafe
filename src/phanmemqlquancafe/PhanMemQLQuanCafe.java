@@ -509,6 +509,33 @@ public class StringToWords
 
         
 
+
+public class WordCount {
+    public static void main(String[] args) {
+        String text = "Học lập trình Java là một trải nghiệm thú vị. Lập trình Java giúp phát triển tư duy logic.";
+        
+        // Chuyển đổi đoạn văn bản thành mảng các từ
+        String[] words = text.toLowerCase().split("\\W+");
+        
+        // Sử dụng HashMap để đếm số lần xuất hiện của từng từ
+        Map<String, Integer> wordCount = new HashMap<>();
+        
+        for (String word : words) {
+            if (!wordCount.containsKey(word)) {
+                wordCount.put(word, 1);
+            } else {
+                wordCount.put(word, wordCount.get(word) + 1);
+            }
+        }
+        
+        // Hiển thị kết quả
+        for (Map.Entry<String, Integer> entry : wordCount.entrySet()) {
+            System.out.println(entry.getKey() + ": " + entry.getValue());
+        }
+    }
+}
+
+
 }
 
 
