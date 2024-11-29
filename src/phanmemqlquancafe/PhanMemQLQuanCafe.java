@@ -337,11 +337,11 @@ public class PhanMemQLQuanCafe {
         if (year % 100 == 0) {
             return year % 400 == 0;
         } else {
-            return true;
+        
         }
     }else
     {
-        return false;
+        
     }
 
     System.out.print("Nhập số phần tử của dãy Fibonacci cần tính: ");
@@ -350,6 +350,7 @@ public class PhanMemQLQuanCafe {
     {
         System.out.print(fibonacci(i) + " ");
     }scanner.close();
+
     }
 
     int fibonacci(int n) {
@@ -377,6 +378,9 @@ System.out.print("Tuan Minh ngay 5");
 
         System.out.print("Toi la Tuan Minh Ngay 4.3")
            System.out.print("Toi la Tuan Minh commit ngay 6");
+
+System.out.print("Toi la Tuan Minh commit ngay 6");
+
         System.out.println("Toi la duc 2.4 "); 
         System.out.println("Toi la duc 2.5 "); 
 
@@ -396,7 +400,13 @@ System.out.print("Tuan Minh ngay 5");
         
         System.out.println("Toi la duc 3.0 "); 
         System.out.println("Toi la duc 3.1 "); 
-        System.out.println("Toi la duc 3.2
+        System.out.println("Toi la duc 3.2");
+
+        System.out.println("Toi la duc 3.3 "); 
+        System.out.println("Toi la duc 3.4");
+
+        System.out.println("Toi la duc 3.5 "); 
+        System.out.println("Toi la duc 3.6");
 
 
         public class WhileLoopExample {
@@ -449,6 +459,7 @@ public class TryCatchFinallyExample {
                 System.out.println("Lỗi khi đóng file: " + e.getMessage());
             }
         }
+
     }
 }
 
@@ -474,7 +485,7 @@ public class DoWhileExample {
     Duy Hung di commit 53
         
 
-    }
+}
 
 
    
