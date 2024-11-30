@@ -503,6 +503,20 @@ public class DoWhileExample {
             System.out.println("a: " + a + ", b: " + b);
         }
     }
+
+
+    public class VarArgs {
+        public static void main(String[] args) {
+            printNumbers(1, 2, 3, 4, 5);
+        }
+    
+        public static void printNumbers(int... numbers) {
+            for (int number : numbers) {
+                System.out.println("Number: " + number);
+            }
+        }
+    }
+    
     
     
         
