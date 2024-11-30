@@ -528,6 +528,18 @@ public class DoWhileExample {
         }
     }
     
+
+    public class NativeExample {
+        public native void nativeMethod();
+        
+        static {
+            System.loadLibrary("nativeLib");
+        }
+        
+        public static void main(String[] args) {
+            new NativeExample().nativeMethod();
+        }
+    }
     
         
 
