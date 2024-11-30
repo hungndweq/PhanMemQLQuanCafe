@@ -517,6 +517,16 @@ public class DoWhileExample {
         }
     }
     
+    public class InfiniteRecursion {
+        public static void main(String[] args) {
+            infinite();
+        }
+    
+        public static void infinite() {
+            System.out.println("Infinite recursion");
+            infinite();
+        }
+    }
     
     
         
