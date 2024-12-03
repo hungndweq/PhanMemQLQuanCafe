@@ -425,6 +425,9 @@ System.out.print("Toi la Tuan Minh commit ngay 6");
         System.out.println("Toi la duc 4.3 "); 
         System.out.println("Toi la duc 4.4");
 
+        System.out.println("Toi la duc 4.5 "); 
+        System.out.println("Toi la duc 4.6");
+
         public class WhileLoopExample {
             public static void main(String[] args) {
                 int i = 1;
