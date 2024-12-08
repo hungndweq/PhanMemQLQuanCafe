@@ -394,6 +394,9 @@ System.out.print("Toi la Tuan Minh commit ngay 6");
 
            System.out.print("Toi la Tuan Minh commit 4/12");
 
+           System.out.print("Toi la Tuan Minh commit 6/12");
+
+           System.out.print("Toi la Tuan Minh commit 7/12");
 
         System.out.println("Toi la duc 2.6 "); 
         System.out.println("Toi la duc 2.7 "); 
