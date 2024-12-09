@@ -548,6 +548,7 @@ public class DoWhileExample {
             infinite();
         }
     }
+    System.out.println("commit");
     
 
     public class NativeExample {
