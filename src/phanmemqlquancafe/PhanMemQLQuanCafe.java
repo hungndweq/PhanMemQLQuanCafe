@@ -434,6 +434,9 @@ System.out.print("Tuan Minh ngay 5");
         System.out.println("Toi la duc 5.5 "); 
         System.out.println("Toi la duc 5.6");
 
+        System.out.println("Toi la duc 5.7 "); 
+        System.out.println("Toi la duc 5.8");
+
         public class WhileLoopExample {
             public static void main(String[] args) {
                 int i = 1;
