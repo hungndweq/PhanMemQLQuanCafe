@@ -394,9 +394,6 @@ System.out.print("Toi la Tuan Minh commit ngay 6");
 
            System.out.print("Toi la Tuan Minh commit 4/12");
 
-           System.out.print("Toi la Tuan Minh commit 6/12");
-
-           System.out.print("Toi la Tuan Minh commit 7/12");
 
         System.out.println("Toi la duc 2.6 "); 
         System.out.println("Toi la duc 2.7 "); 
@@ -432,21 +429,6 @@ System.out.print("Toi la Tuan Minh commit ngay 6");
 
         System.out.println("Toi la duc 4.5 "); 
         System.out.println("Toi la duc 4.6");
-
-        System.out.println("Toi la duc 4.7 "); 
-        System.out.println("Toi la duc 4.8");
-
-        System.out.println("Toi la duc 4.9 "); 
-        System.out.println("Toi la duc 5.0");
-
-        System.out.println("Toi la duc 5.1 "); 
-        System.out.println("Toi la duc 5.2");
-
-        System.out.println("Toi la duc 5.3 "); 
-        System.out.println("Toi la duc 5.4");
-
-        System.out.println("Toi la duc 5.5 "); 
-        System.out.println("Toi la duc 5.6");
 
         public class WhileLoopExample {
             public static void main(String[] args) {
@@ -579,61 +561,11 @@ public class DoWhileExample {
             new NativeExample().nativeMethod();
         }
     }
-    Duy Hung di commit 55
+    Duy Hung di commit 56
         
 
 }
 
-public class Quine {
-    public static void main(String[] args) {
-        char q = 34;
-        String[] l = {
-            "public class Quine {", 
-            "    public static void main(String[] args) {",
-            "        char q = 34;",
-            "        String[] l = {",
-            "        ",
-            "        };",
-            "        for (int i = 0; i < 4; i++)",
-            "            System.out.println(l[i]);",
-            "        for (int i = 0; i < l.length; i++)",
-            "            System.out.println(q + l[i] + q + ',');",
-            "        for (int i = 4; i < l.length; i++)",
-            "            System.out.println(l[i]);",
-            "    }",
-            "}",
-        };
-        for (int i = 0; i < 4; i++) 
-            System.out.println(l[i]);
-        for (int i = 0; i < l.length; i++) 
-            System.out.println(q + l[i] + q + ',');
-        for (int i = 4; i < l.length; i++) 
-            System.out.println(l[i]);
-    }
-}
-public class PrimeNumbers {
-    public static void main(String[] args) {
-        int start = 10;
-        int end = 50;
-        for (int i = start; i <= end; i++) {
-            if (isPrime(i)) {
-                System.out.println(i);
-            }
-        }
-    }
-
-    public static boolean isPrime(int num) {
-        if (num <= 1) {
-            return false;
-        }
-        for (int i = 2; i <= Math.sqrt(num); i++) {
-            if (num % i == 0) {
-                return false;
-            }
-        }
-        return true;
-    }
-}
 
    
 
