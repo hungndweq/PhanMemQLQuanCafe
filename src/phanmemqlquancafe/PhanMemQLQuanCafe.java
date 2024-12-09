@@ -337,11 +337,11 @@ public class PhanMemQLQuanCafe {
         if (year % 100 == 0) {
             return year % 400 == 0;
         } else {
-            return true;
+        
         }
     }else
     {
-        return false;
+        
     }
 
     System.out.print("Nhập số phần tử của dãy Fibonacci cần tính: ");
@@ -350,6 +350,7 @@ public class PhanMemQLQuanCafe {
     {
         System.out.print(fibonacci(i) + " ");
     }scanner.close();
+
     }
 
     int fibonacci(int n) {
@@ -377,11 +378,21 @@ System.out.print("Tuan Minh ngay 5");
 
         System.out.print("Toi la Tuan Minh Ngay 4.3")
            System.out.print("Toi la Tuan Minh commit ngay 6");
+
+System.out.print("Toi la Tuan Minh commit ngay 6");
+
         System.out.println("Toi la duc 2.4 "); 
         System.out.println("Toi la duc 2.5 "); 
 
 
            System.out.print("Toi la Tuan Minh commit ngay 7");
+
+           System.out.print("Toi la Tuan Minh commit 1/12");
+
+           System.out.print("Toi la Tuan Minh commit 2/12");
+           System.out.print("Toi la Tuan Minh commit 2/12 lan 2");
+
+           System.out.print("Toi la Tuan Minh commit 4/12");
 
 
         System.out.println("Toi la duc 2.6 "); 
@@ -419,7 +430,7 @@ System.out.print("Tuan Minh ngay 5");
         System.out.println("Toi la duc 4.5 "); 
         System.out.println("Toi la duc 4.6");
 
-        System.out.println("Toi la duc 4.7 "); 
+        Systgit checkout AnhDuc2em.out.println("Toi la duc 4.7 "); 
         System.out.println("Toi la duc 4.8");
 
         System.out.println("Toi la duc 4.9 "); 
@@ -439,6 +450,9 @@ System.out.print("Tuan Minh ngay 5");
 
         System.out.println("Toi la duc 5.9 "); 
         System.out.println("Toi la duc 6.0");
+
+        System.out.println("Toi la duc 6.1");
+        System.out.println("Toi la duc 6.2");
 
         public class WhileLoopExample {
             public static void main(String[] args) {
@@ -490,6 +504,7 @@ public class TryCatchFinallyExample {
                 System.out.println("Lỗi khi đóng file: " + e.getMessage());
             }
         }
+
     }
 }
 
@@ -512,28 +527,68 @@ public class DoWhileExample {
         scanner.close();
     }
 }
-    DUy Hung di commit
+    Duy Hung di commit 53
 
-    public class SumOddNumbers {
-    public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        int sum = 0;
-
-        for (int i : arr) {
-            if (i % 2 != 0) {
-                sum += i;
+    public class Main {
+        public static void main(String[] args) {
+            for (int i = 0; i < 10; i++) {
+                System.out.println("i: " + i);
             }
         }
-
-        System.out.println("Tổng các số lẻ trong mảng là: " + sum);
     }
-}
+    public class Swap {
+        public static void main(String[] args) {
+            int a = 5;
+            int b = 10;
+            
+            a = a + b;
+            b = a - b;
+            a = a - b;
+            
+            System.out.println("a: " + a + ", b: " + b);
+        }
+    }
 
 
+    public class VarArgs {
+        public static void main(String[] args) {
+            printNumbers(1, 2, 3, 4, 5);
+        }
+    
+        public static void printNumbers(int... numbers) {
+            for (int number : numbers) {
+                System.out.println("Number: " + number);
+            }
+        }
+    }
+    
+    public class InfiniteRecursion {
+        public static void main(String[] args) {
+            infinite();
+        }
+    
+        public static void infinite() {
+            System.out.println("Infinite recursion");
+            infinite();
+        }
+    }
+    
 
+    public class NativeExample {
+        public native void nativeMethod();
+        
+        static {
+            System.loadLibrary("nativeLib");
+        }
+        
+        public static void main(String[] args) {
+            new NativeExample().nativeMethod();
+        }
+    }
+    Duy Hung commit cho song 
         
 
-    }
+}
 
 
    
