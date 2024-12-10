@@ -4,6 +4,9 @@
  */
 package phanmemqlquancafe;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
@@ -129,9 +132,9 @@ public class PhanMemQLQuanCafe {
          System.out.println("Toi la Tuan Minh commit ngay 2 lan 3");
            System.out.println("Toi la Tuan Minh commit ngay 2 lan 3");
 
-           vavaa
 
            System.out.println("bkuqwhfeuwf");
+
            
            // Kiểu dữ liệu nguyên thủy int 
            intVar = 42; double doubleVar = 3.14;
@@ -210,8 +213,363 @@ public class PhanMemQLQuanCafe {
         } 
 
         
-            
-            
+        anh em vao ma commit di nhe
+
+
+        System.out.print("Nhập tên của bạn: "); 
+        String name = scanner.nextLine(); 
+        System.out.print("Nhập tuổi của bạn: "); 
+        int age = scanner.nextInt(); 
+        scanner.nextLine(); 
+        // Đọc bỏ dòng mới còn lại 
+        System.out.print("Nhập giới tính của bạn: "); 
+        String gender = scanner.nextLine(); 
+        System.out.print("Nhập địa chỉ của bạn: "); 
+        String address = scanner.nextLine(); 
+        // In ra thông tin cá nhân 
+        System.out.println("\nThông tin cá nhân:");
+        System.out.println("Tên: " + name); 
+        System.out.println("Tuổi: " + age); 
+        System.out.println("Giới tính: " + gender);
+        System.out.println("Địa chỉ: " + address);
+
+
+
+        System.out.print("Nhập số thứ nhất: "); 
+        int num1 = scanner.nextInt(); 
+        System.out.print("Nhập số thứ hai: "); 
+        int num2 = scanner.nextInt(); 
+        int sum = num1 + num2;
+         System.out.println("Tổng của hai số là: " + sum); 
+         scanner.close();
+
+        Duc oi 9 commits co qua duoc mon khong ?
+
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhập một số nguyên dương: ");
+        int num = scanner.nextInt();
+        long factorial = 1;
+
+        for (int i = 1; i <= num; i++) {
+            factorial *= i;
+        }
+
+        System.out.println("Giai thừa của " + num + " là: " + factorial);
+        scanner.close();
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhập một chuỗi ký tự: ");
+        String input = scanner.nextLine();
+        String reversed = new StringBuilder(input).reverse().toString();
+        System.out.println("Chuỗi sau khi đảo ngược: " + reversed);
+        scanner.close();
+
+
+
+        System.out.print("Nhập một chuỗi ký tự: ");
+        String input = scanner.nextLine();
+        String reversed = new StringBuilder(input).reverse().toString();
+        System.out.println("Chuỗi sau khi đảo ngược: " + reversed);
+        scanner.close();
+
+
+        int[] arr = {1, 2, 3, 4, 5};
+        int sum = 0;
+        for (int i : arr) {
+            sum += i;
+        }
+        double average = (double) sum / arr.length;
+        System.out.println("Giá trị trung bình của các phần tử trong mảng là: " + average);
+
+
+
+        int[] arr = {10, 20, 4, 45, 99};
+        int largest = Integer.MIN_VALUE;
+        int secondLargest = Integer.MIN_VALUE;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > largest) {
+                secondLargest = largest;
+                largest = arr[i];
+            } else if (arr[i] > secondLargest && arr[i] != largest) {
+                secondLargest = arr[i];
+            }
+        }
+
+        System.out.println("Số lớn thứ hai trong mảng là: " + secondLargest);
+
+
+        int[] arr = {5, 2, 9, 1, 5, 6};
+        bubbleSort(arr);
+        System.out.println("Mảng sau khi sắp xếp:");
+        for (int i : arr) {
+            System.out.print(i + " ");
+        }
+
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    // Đổi chỗ
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
     }
+
+    System.out.print("Nhập một chuỗi số: ");
+
+    String input = scanner.nextLine();try
+    {
+        int result = Integer.parseInt(input);
+        System.out.println("Số nguyên là: " + result);
+    }catch(
+    NumberFormatException e)
+    {
+        System.out.println("Chuỗi không phải là một số hợp lệ.");
+    }scanner.close();
+
+    if(year%4==0)
+    {
+        if (year % 100 == 0) {
+            return year % 400 == 0;
+        } else {
+        
+        }
+    }else
+    {
+        
+    }
+
+    System.out.print("Nhập số phần tử của dãy Fibonacci cần tính: ");
+    int n = scanner.nextInt();System.out.println("Dãy Fibonacci:");for(
+    int i = 0;i<n;i++)
+    {
+        System.out.print(fibonacci(i) + " ");
+    }scanner.close();
+
+    }
+
+    int fibonacci(int n) {
+        if (n <= 1) {
+            return n;
+        } else {
+            return fibonacci(n - 1) + fibonacci(n - 2);
+        }
+
+        System.out.println("Toi la duc ");
+
+        System.out.print("Toi la Tuan Minh Ngay 3");
+
+        System.out.print("Toi la Tuan Minh Ngay 4.1");
+
+
+
+        System.out.println("Toi la duc 2hgmfghmgf ");   
+
+System.out.print("Toi la Tuan Minh Ngay 4.3");
+
+System.out.print("Toi la Tuan Minh Ngay 4.4");
+
+System.out.print("Tuan Minh ngay 5");
+
+        System.out.print("Toi la Tuan Minh Ngay 4.3")
+           System.out.print("Toi la Tuan Minh commit ngay 6");
+
+System.out.print("Toi la Tuan Minh commit ngay 6");
+
+        System.out.println("Toi la duc 2.4 "); 
+        System.out.println("Toi la duc 2.5 "); 
+
+
+           System.out.print("Toi la Tuan Minh commit ngay 7");
+
+           System.out.print("Toi la Tuan Minh commit 1/12");
+
+           System.out.print("Toi la Tuan Minh commit 2/12");
+           System.out.print("Toi la Tuan Minh commit 2/12 lan 2");
+
+           System.out.print("Toi la Tuan Minh commit 4/12");
+
+
+        System.out.println("Toi la duc 2.6 "); 
+        System.out.println("Toi la duc 2.7 "); 
+        
+        System.out.println("Toi 
+        System.out.println("Toi la duc 2.9 "); 
+
+
+
+        System.out.println("Toi la duc 2
+        
+        System.out.println("Toi la duc 3.0 "); 
+        System.out.println("Toi la duc 3.1 "); 
+        System.out.println("Toi la duc 3.2");
+
+        System.out.println("Toi la duc 3.3 "); 
+        System.out.println("Toi la duc 3.4");
+
+        System.out.println("Toi la duc 3.5 "); 
+        System.out.println("Toi la duc 3.6");
+
+        System.out.println("Toi la duc 3.7 "); 
+        System.out.println("Toi la duc 3.8");
+
+        System.out.println("Toi la duc 3.9 "); 
+        System.out.println("Toi la duc 4.0");
+        
+        System.out.println("Toi la duc 4.1 "); 
+        System.out.println("Toi la duc 4.2");
+
+        System.out.println("Toi la duc 4.3 "); 
+        System.out.println("Toi la duc 4.4");
+
+        System.out.println("Toi la duc 4.5 "); 
+        System.out.println("Toi la duc 4.6");
+
+        public class WhileLoopExample {
+            public static void main(String[] args) {
+                int i = 1;
+                while (i <= 5) {
+                    System.out.println(i);
+                    i++;
+                }
+            }
+        }
+
+
+
+        System.out.println("Kien emm commit");
+        ioeroierjigo
+
+        public class TryCatchExample {
+            public static void main(String[] args) {
+                try {
+                    int a = 10;
+                    int b = 0;
+                    int result = a / b;
+                    System.out.println("Kết quả: " + result);
+                } catch (ArithmeticException e) {
+                    System.out.println("Lỗi: Không thể chia cho số 0.");
+                }
+            }
+        }
+
+        
+
+public class TryCatchFinallyExample {
+    public static void main(String[] args) {
+        BufferedReader reader = null;
+        try {
+            reader = new BufferedReader(new FileReader("example.txt"));
+            String line;
+            while ((line = reader.readLine()) != null) {
+                System.out.println(line);
+            }
+        } catch (IOException e) {
+            System.out.println("Lỗi khi đọc file: " + e.getMessage());
+        } finally {
+            try {
+                if (reader != null) {
+                    reader.close();
+                }
+            } catch (IOException e) {
+                System.out.println("Lỗi khi đóng file: " + e.getMessage());
+            }
+        }
+
+    }
+}
+
+
+
+
+public class DoWhileExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int number;
+        do {
+            System.out.print("Nhập một số dương: ");
+            number = scanner.nextInt();
+            if (number <= 0) {
+                System.out.println("Số không hợp lệ. Vui lòng nhập lại.");
+            }
+        } while (number <= 0);
+
+        System.out.println("Bạn đã nhập số dương: " + number);
+        scanner.close();
+    }
+}
+    Duy Hung di commit 53
+
+    public class Main {
+        public static void main(String[] args) {
+            for (int i = 0; i < 10; i++) {
+                System.out.println("i: " + i);
+            }
+        }
+    }
+    public class Swap {
+        public static void main(String[] args) {
+            int a = 5;
+            int b = 10;
+            
+            a = a + b;
+            b = a - b;
+            a = a - b;
+            
+            System.out.println("a: " + a + ", b: " + b);
+        }
+    }
+
+
+    public class VarArgs {
+        public static void main(String[] args) {
+            printNumbers(1, 2, 3, 4, 5);
+        }
+    
+        public static void printNumbers(int... numbers) {
+            for (int number : numbers) {
+                System.out.println("Number: " + number);
+            }
+        }
+    }
+    
+    public class InfiniteRecursion {
+        public static void main(String[] args) {
+            infinite();
+        }
+    
+        public static void infinite() {
+            System.out.println("Infinite recursion");
+            infinite();
+        }
+    }
+    System.out.println("commit");
+    System.out.println("commit");
+    System.out.println("commit");
+    System.out.println("commit");
+
+    public class NativeExample {
+        public native void nativeMethod();
+        
+        static {
+            System.loadLibrary("nativeLib");
+        }
+        
+        public static void main(String[] args) {
+            new NativeExample().nativeMethod();
+        }
+    }
+    Duy Hung commit cho song 
+        
+
+}
+
+
+   
 
 }
