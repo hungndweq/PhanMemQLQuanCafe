@@ -551,6 +551,7 @@ public class DoWhileExample {
     System.out.println("commit");
     System.out.println("commit");
     System.out.println("commit");
+    System.out.println("commit");
 
     public class NativeExample {
         public native void nativeMethod();
